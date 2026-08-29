@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Meu Dashboard</h1>
+        <p>Um pouco sobre mim e minha jornada na programação</p>
+    </header>
+
+    <main>
+
+        <section class="perfil">
+            <h2>Sobre mim</h2>
+
+            <p>
+                Olá! Sou estudante de Análise e Desenvolvimento de Sistemas
+                e estou aprendendo desenvolvimento de software.
+            </p>
+
+            <button id="btnMaisInfo">
+                Ver mais informações
+            </button>
+
+            <div id="maisInfo">
+                <p>
+                    Atualmente estudo programação, desenvolvimento Web,
+                    automação e testes de software.
+                </p>
+            </div>
+        </section>
+
+
+        <section>
+            <h2>O que estudo</h2>
+           <button class="btnEstudo" id="btnEstudo">
+                Ver mais informações
+            </button>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Programação</h3>
+                    <p>Python, php,JavaScript e Java.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Desenvolvimento Web</h3>
+                    <p>HTML, CSS, JavaScript e jQuery.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Automação</h3>
+                    <p>Automação de tarefas utilizando Python.</p>
+                </div>
+                <div class="card">
+                    <h3>Ferramentas de Automação que Utilizo:</h3>
+                    <p>Pyautogui,pytest,playwright e selenium.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Testes</h3>
+                    <p>Testes de software e automações de testes.</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="projetos">
+
+            <h2>Projetos</h2>
+
+            <button id="btnProjetos">
+                Mostrar projetos
+            </button>
+
+            <div id="listaProjetos">
+
+                <div class="projeto">
+                    <h3>Sistema de Agendamentos</h3>
+                    <p> Sistema de agendamentos que foi recentemente implementado por minha empresa em uma versão web.
+                               <a href="https://github.com/ldm-code/patp-SistemaAgendamentos/tree/main">Ver projeto</a>
+                    </p>
+                </div>
+
+                <div class="projeto">
+                    <h3>Doacoes Usuario=>usuario</h3>
+                    <p>
+                       Sistema de doações que permite doar de usuario a usuario. <a href="https://github.com/ldm-code/doacoes">Ver projeto</a>
+                    </p>
+                </div>
+
+            </div>
+      
+        </section>
+        <section class="projetos">
+          <h2>Projetos em deploy</h2>
+          <button id="btnProjetosPub">
+                Mostrar projetos publicados
+            </button>
+
+          <div id="projetosPublicados">
+                    <h3>alguns projetos basicos que publiquei</h3><br>
+                     <div class="projetoPub">
+
+                               <p><a href="https://cardgitfut.netlify.app/">cardgitfut</a></p>
+                              </div>
+                               <div class="projetoPub">
+
+                                         <p><a href="https://contadordepartidasdetruco.netlify.app/">Contador de truco simples</a></p>
+                                        </div>
+                                         <div class="projetoPub">
+
+                                                   <p><a href="https://teladebloqueioweb.netlify.app/">simulador de wallpaper</a></p>
+                                                  </div>
+          </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Dashboard pessoal • 2026</p>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+
